@@ -70,6 +70,7 @@ Work as your own compact team: Yo do not need back end engineers
 *  AdMob
 
 [Firebase Documents](https://firebase.google.com/docs/)
+
 [Firebase Libraries](https://firebase.google.com/docs/libraries/)
 
 =-=-=-=-=-=-=-=-=-=-=-=-=-=-==-=-=-=-=-=-=-=-=-=-=-=-=-=-=
@@ -131,6 +132,9 @@ Surprise! That is all we ever needed
 
 # Firebase Demos
 
+Basically Firebase 
+http://codepen.io/silicon_hacker/pen/bZxwVY
+
 Real Time Scheduling with AngularJS and Firebase
 http://codepen.io/sevilayha/pen/vEEmMX
 
@@ -149,12 +153,6 @@ http://codepen.io/osublake/pen/gPeeJN
 Test angular firebase chat app
 http://codepen.io/baffleinc/pen/QNOZgp
 
-Getting Started with Firebase on the Web - Firecasts 
-https://www.youtube.com/watch?v=k1D0_wFlXgo&index=5&list=PLl-K7zZEsYLnJVX_0zbKytptZGugPIbJR
-
-Introduction to Firebase Security Rules - Firecasts #7 
-https://www.youtube.com/watch?v=eUfSpktxNeQ
-
 Hit Counters & Timers in Vue + Firebase
 http://codepen.io/mjweaver01/pen/reoKzp
 
@@ -169,13 +167,21 @@ http://codepen.io/david-east/pen/ACalK
 
 This is a [Firebase Samples](https://firebase.google.com/docs/samples/)
 
-
 =-=-=-=-=-=-=-=-=-=-=-=-=-=-==-=-=-=-=-=-=-=-=-=-=-=-=-=-=
 
 # Firebase Links 
 
-Find out more at firebase.google.com/
-Check out the Firebase on web docs at https://goo.gl/RGrpOA
-Read about it in our blog: http://firebase.googleblog.com
-Add the Firecasts playlist! https://goo.gl/n2XqG1
+Find out more: 
+firebase.google.com/
 
+Firebase Blog: 
+http://firebase.googleblog.com
+
+Getting Started with Firebase on the Web: 
+https://www.youtube.com/watch?v=k1D0_wFlXgo&index=5&list=PLl-K7zZEsYLnJVX_0zbKytptZGugPIbJR
+
+Introduction to Firebase Security Rules:
+https://www.youtube.com/watch?v=eUfSpktxNeQ
+
+Firecasts playlist: 
+https://goo.gl/n2XqG1

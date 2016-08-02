@@ -1,0 +1,54 @@
+<!doctype html>
+<html>
+
+<head>
+    <script src='https://cdn.firebase.com/js/client/2.2.1/firebase.js'></script>
+    <script src='https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js'></script>
+</head>
+
+<body>
+    <h2>Schedule Inputer</h2>
+    <div id='scheduleList' style="background-color: aliceblue;"></div>
+    <h3>Add To Schedule Inputer</h3>
+    <table>
+      <tr><td>Full Name:</td><td><input type='text' id='nameInput' placeholder='Name'></td></tr>
+      <tr><td>Best Time To Call:</td><td><input type='text' id='callTimeInput' placeholder='Call Time'></td></tr>
+      <tr><td>Message:</td><td><input type='text' id='messageInput' placeholder='Message'></td></tr>
+    </table>
+
+</body>
+
+<script>
+  // connection string to firebase
+  var myDataRef = new Firebase('https://shining-inferno-5116.firebaseio.com/web/contact-us-data');
+  
+  // get user input values
+  $('#messageInput').keypress(function (e) {
+    if (e.keyCode == 13) {
+      var name = $('#nameInput').val();
+      var text = $('#messageInput').val();
+      var calltime = $('#callTimeInput').val();
+      
+      // send values to firebase
+      myDataRef.push({name: name, calltime: calltime, text: text});
+      $('#nameInput').val('');
+      $('#callTimeInput').val('');
+      $('#messageInput').val('');          
+    }
+  });
+  
+  // add snapshot data from firebase
+  myDataRef.on('child_added', function(snapshot) {
+    var message = snapshot.val();
+    displayScheduleList(message.name, message.calltime, message.text);
+  });
+  
+  // paint snapshot data from firebase
+  function displayScheduleList(name, calltime, text) {
+    $('<div/>').text(text).prepend($('<i/>').text(calltime+' - ')).prepend($('<b/>').text(name+': ')).appendTo($('#scheduleList'));
+    $('#scheduleList')[0].scrollTop = $('#scheduleList')[0].scrollHeight;
+  };
+  
+</script>
+
+</html>

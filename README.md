@@ -12,55 +12,82 @@ Firebase is a slick backend cloud solution hosted by Google.
 
 
 
-1- talk up firebase devs  ================================================================
+================================================================
 
 # The One Man Gang
 
 ![alt text](https://s-media-cache-ak0.pinimg.com/564x/d1/eb/b0/d1ebb0b1daa52ed832faeed9ff0c939e.jpg)
 
+A one man Firebase Dev:
+
+## You are the One Man Gang
+
+*  you need back end data
+*  you have to scale
+*  you have to login users
+*  you have to find users
+*  you want to know what users are clicking
+*  you have to make money
+
+
+## Working as the One Man Gang
+
+*  real time database and file storage 
+*  cloud hosting scalability
+*  authnication componet
+*  google indexing
+*  analytics built for firebase
+*  ad mob
 
 
 
-firebase syronized data between client and server automagicly
-
-developing a sucessful modern web app is not easy
-
-you need back end data
-you have to scale
-you have to login users
-you have to find users
-you want analyicits
-you have to make money
-
-firebase has this
-reach users
-keep them engaged
-scale
-and get paid
-test lab
-reporting
-real time database - file storage - hosting
-aquire with invites = ad words - and dynamic links
-authnication componet
-notifications  - cloud messages - app indexing
-remote config 
-ad mob
-analytics built for firebase
-measure campains
-users 
-how they use the app
 
 
-working as a one man gang
-you can build your app
-monitor crashes
-optimize
-find vauleable users
+================================================================
+
+# Developing a sucessful modern web app is not easy
+## Using Firebase ecosystem help ease the pain, big business struggles with 
+syronized data between client and server automagicly
 
 
-grow your user base
-mainatain app quality
-store and retrieve data
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Google Breakdown
+
+Develop
+
+Realtime Database
+Authentication
+Clould Messaging
+Storage
+Hosting
+Remote Config
+Test Lab
+Crash Reporing
+
+
+
+GROW
+
+Notifications
+App Indexing
+Dynamic Links
+Invites
+AdWords
+
+
+
+EARN
+
+AdMob
+
+
+
+
+
+
+
+
+
 
 
 
@@ -99,7 +126,6 @@ hosting
 
 
 
-2- eco system  ================================================================
 3- data design  ================================================================
 firebase data types (4)
 json tree
@@ -241,35 +267,6 @@ my code sample
 
 
 
-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
-Google Breakdown
-
-Develop
-
-Realtime Database
-Authentication
-Clould Messaging
-Storage
-Hosting
-Remote Config
-Test Lab
-Crash Reporing
-
-
-
-GROW
-
-Notifications
-App Indexing
-Dynamic Links
-Invites
-AdWords
-
-
-
-EARN
-
-AdMob
 
 
 
@@ -347,24 +344,3 @@ Add a file
 Deploy your website
 
 
-
--=-=-=-=-=-==-=
-Firebase is a NoSQL, real-time cloud database that super charges your web app development. With only a few lines of code, you are interacting with a hosted database that has user management built in and works with all major frameworks.
-
-Join us for our inaugural meeting where we will go over the basics of Firebase -- how to create a Firebase and quickly store and retrieve data into your application. We'll be meeting at Galvanize - Golden Triangle and pizza and beer will be provided!
-
-
-
-Firebase Web App Development
-
-Firebase is a slick backend cloud solution.  We will share important information about the Firebase ecosystem available to web app developers.  We will go over some Firebase data design concepts.  How to connect a Firebase instance to your web application.
-
-
-
-Firebase is a real-time, NoSQL cloud database that keeps development speed in mind. It not only gives you a database that can be accessed from the server, client, or mobile device, 
-it also takes care of user authentication and hosting -- a complete backend solution! Plus, it's just been bought by Google, so long-term support and feature improvement is assured. 
-
-
-Firebase is a NoSQL, real-time cloud database that super charges your web app development. With only a few lines of code, you are interacting with a hosted database that has user management built in 
-
-we will go over the basics of Firebase -- how to create a Firebase and quickly store and retrieve data into your application.

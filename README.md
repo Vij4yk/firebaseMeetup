@@ -82,12 +82,10 @@ This is a [Firebase Samples](https://firebase.google.com/docs/samples/)
 # Firebase Data Design
 ## JSON Tree
 
-    <blockquote>
-        <p>Key / Value Pairs</p>
-        <p>Keys are maps to Values </p>
-        <p>Values belong to Keys</p>
-        <p>Keys that do not have Values are removed from Key Chain (deleted)</p>
-    </blockquote>
+    Key / Value Pairs
+    Keys are maps to Values 
+     Values belong to Keys
+     Keys that do not have Values are removed from Key Chain (deleted)
 
 ## Firebase Data Types 
 Firebase offers four data types

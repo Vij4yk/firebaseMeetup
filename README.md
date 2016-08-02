@@ -1,138 +1,19 @@
 # firebaseMeetup
-Firebase Web App Development
 
+##Firebase Web App Development
 
-firebase class club ajax.txt
-
-Real Time Scheduling with AngularJS and Firebase
-http://codepen.io/sevilayha/pen/vEEmMX
-
-Simple chat app using firebase
-http://codepen.io/iremlopsum/pen/ZWEdZj
-
-ReactJS / Firebase to-do list
-http://codepen.io/_massimo/pen/EKVVow
-
-Simple Firebase Comments
-http://codepen.io/joshbivens/pen/jbNJJR
-
-Real-time Fridge Magnets
-http://codepen.io/osublake/pen/gPeeJN
-
-Test angular firebase chat app
-http://codepen.io/baffleinc/pen/QNOZgp
-
-
-
-Getting Started with Firebase on the Web - Firecasts 
-https://www.youtube.com/watch?v=k1D0_wFlXgo&index=5&list=PLl-K7zZEsYLnJVX_0zbKytptZGugPIbJR
-
-Introduction to Firebase Security Rules - Firecasts #7 
-https://www.youtube.com/watch?v=eUfSpktxNeQ
-
-
-Hit Counters & Timers in Vue + Firebase
-http://codepen.io/mjweaver01/pen/reoKzp
-
-AngularJs Firebase CRUD
-http://codepen.io/aboudard/pen/XdogjG
-
-
-AngularFire - Firebase/Angular Demo
-http://codepen.io/joe-watkins/pen/KwEwYZ
-
-
-Fire Table - Firebase & Angular
-http://codepen.io/david-east/pen/ACalK
-
-
--=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
-
-Check out the Firebase on web docs at https://goo.gl/RGrpOA
-Read about it in our blog: http://firebase.googleblog.com
-
-Add the Firecasts playlist! https://goo.gl/n2XqG1
-Subscribe to the brand new Firebase Channel: https://goo.gl/9giPHG
-
-
-Find out more at firebase.google.com/
-
-Add the Introducing Firebase playlist! https://goo.gl/n2XqG1
-
-Subscribe to the brand new Firebase Channel: https://goo.gl/9giPHG
-Subscribe to Android Developers: goo.gl/ydHEAe
-Subscribe to Chrome Developers: https://goo.gl/n7mBHx
-Subscribe to Google Developers: http://goo.gl/mQyv5L
-
--=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
-
-firebase + android => FirebaseUI
-Events in Firebase are how you control the realtime synchronization of data in your app. This Firecasts explores each type of event and how it can be used when making an app. Also, for those interested in Android apps, we'll look at library called FirebaseUI that simplifies app development.
-Want your RecyclerView to update in realtime? Use FirebaseUI! FirebaseUI is the easiest way to bind realtime data to ListViews and RecyclerViews. This Firecasts covers everything you need to know to be a pro at displaying lists of data in realtime.
-
-firebase + angular => AngularFire
-Want realtime data in your Angular app? Getting started with Angular and Firebase is super easy. Firebase has an official AngularJS library named AngularFire that makes binding data to your Angular apps a breeze. This video teaches you everything you need to know to get up and running fast.
-Async data flow got you down? Get it under control with the $loaded() promise and the router.
-
-firebase + ios
-Getting started with Firebase and iOS is as easy as creating a Podfile. 
-
-c++
-web
-
-https://firebase.google.com/docs/samples/
-
--=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
-
-firebase two main events: object or array 
-ValueEventListener() => String
-addChildEventListener() =>
-
-firebase generated pushid
-firebase UI - FirebaseUI Android:
-
-
--=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
-firebase data types (4)
-json tree
-
-key/value pair
-key are maps to values - the values below the keys
-keys that do not have values (delete) are removed from key chain
-
-bool  [true/false]
-double [23.3456]
-long [8765443]
-string [this is a string]
-firebase database is a json tree
-the tree always ends with a real value leaf
-data snapshots includes a key and everything below it
-when you get many keys it becomes a list
+Firebase is a slick backend cloud solution hosted by Google.  
+*  We will share important information about the Firebase ecosystem available to web app developers.  
+*  We will go over some Firebase data design concepts.  
+*  Demonstrate how to connect a Firebase instance to your web application.
 
 
 
 
-Firebase Data Design
-https://www.youtube.com/watch?v=rtuou_a-DHI
-
-Understanding Firebase Database concepts 
-https://www.youtube.com/watch?v=xuebjw_gP4M
 
 
--=-=--=-=-=-=-=-=
-pricing
-urls options
-difference with db types
-pros and cons
-redis / couch / mongo
+1- talk up firebase devs  ================================================================
 
-eco system
-azure/aws competion up and comming
-data design
-code samples 
-my code sample
-
--=-=-=-=-=-=-=-=-=-=-
 firebase syronized data between client and server automagicly
 
 developing a sucessful modern web app is not easy
@@ -176,7 +57,24 @@ store and retrieve data
 
 
 
--=-=-=-=-=-=-=-=-=-=-=-=-=-
+
+
+firebase + android => FirebaseUI
+Events in Firebase are how you control the realtime synchronization of data in your app. This Firecasts explores each type of event and how it can be used when making an app. Also, for those interested in Android apps, we'll look at library called FirebaseUI that simplifies app development.
+Want your RecyclerView to update in realtime? Use FirebaseUI! FirebaseUI is the easiest way to bind realtime data to ListViews and RecyclerViews. This Firecasts covers everything you need to know to be a pro at displaying lists of data in realtime.
+
+firebase + angular => AngularFire
+Want realtime data in your Angular app? Getting started with Angular and Firebase is super easy. Firebase has an official AngularJS library named AngularFire that makes binding data to your Angular apps a breeze. This video teaches you everything you need to know to get up and running fast.
+Async data flow got you down? Get it under control with the $loaded() promise and the router.
+
+firebase + ios
+Getting started with Firebase and iOS is as easy as creating a Podfile. 
+
+c++
+web
+
+https://firebase.google.com/docs/samples/
+
 
 
 
@@ -189,6 +87,149 @@ scalable
 realtime database
 authentication
 hosting
+
+
+
+
+
+2- eco system  ================================================================
+3- data design  ================================================================
+firebase data types (4)
+json tree
+
+key/value pair
+key are maps to values - the values below the keys
+keys that do not have values (delete) are removed from key chain
+
+bool  [true/false]
+double [23.3456]
+long [8765443]
+string [this is a string]
+firebase database is a json tree
+the tree always ends with a real value leaf
+data snapshots includes a key and everything below it
+when you get many keys it becomes a list
+
+
+
+
+Firebase Data Design
+https://www.youtube.com/watch?v=rtuou_a-DHI
+
+Understanding Firebase Database concepts 
+https://www.youtube.com/watch?v=xuebjw_gP4M
+
+
+
+
+4-firebase examples  ================================================================
+
+Real Time Scheduling with AngularJS and Firebase
+http://codepen.io/sevilayha/pen/vEEmMX
+
+Simple chat app using firebase
+http://codepen.io/iremlopsum/pen/ZWEdZj
+
+ReactJS / Firebase to-do list
+http://codepen.io/_massimo/pen/EKVVow
+
+Simple Firebase Comments
+http://codepen.io/joshbivens/pen/jbNJJR
+
+Real-time Fridge Magnets
+http://codepen.io/osublake/pen/gPeeJN
+
+Test angular firebase chat app
+http://codepen.io/baffleinc/pen/QNOZgp
+
+
+
+Getting Started with Firebase on the Web - Firecasts 
+https://www.youtube.com/watch?v=k1D0_wFlXgo&index=5&list=PLl-K7zZEsYLnJVX_0zbKytptZGugPIbJR
+
+Introduction to Firebase Security Rules - Firecasts #7 
+https://www.youtube.com/watch?v=eUfSpktxNeQ
+
+
+Hit Counters & Timers in Vue + Firebase
+http://codepen.io/mjweaver01/pen/reoKzp
+
+AngularJs Firebase CRUD
+http://codepen.io/aboudard/pen/XdogjG
+
+
+AngularFire - Firebase/Angular Demo
+http://codepen.io/joe-watkins/pen/KwEwYZ
+
+
+Fire Table - Firebase & Angular
+http://codepen.io/david-east/pen/ACalK
+
+
+
+5-links  ================================================================
+
+Check out the Firebase on web docs at https://goo.gl/RGrpOA
+Read about it in our blog: http://firebase.googleblog.com
+
+Add the Firecasts playlist! https://goo.gl/n2XqG1
+Subscribe to the brand new Firebase Channel: https://goo.gl/9giPHG
+
+
+Find out more at firebase.google.com/
+
+Add the Introducing Firebase playlist! https://goo.gl/n2XqG1
+
+Subscribe to the brand new Firebase Channel: https://goo.gl/9giPHG
+Subscribe to Android Developers: goo.gl/ydHEAe
+Subscribe to Chrome Developers: https://goo.gl/n7mBHx
+Subscribe to Google Developers: http://goo.gl/mQyv5L
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+
+-=-=--=-=-=-=-=-=
+pricing
+urls options
+difference with db types
+pros and cons
+redis / couch / mongo
+
+eco system
+azure/aws competion up and comming
+data design
+code samples 
+my code sample
+
+-=-=-=-=-=-=-=-=-=-=-
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-
 
 
 

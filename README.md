@@ -18,6 +18,8 @@ Firebase is a slick backend cloud solution hosted by Google.
 
 ![alt text](http://tse1.mm.bing.net/th?id=OIP.M380b037d5d2d8d8ebb9f501d415aaa5co1&pid=15.1 "OneManGang")
 
+![](http://ts1.mm.bing.net/th?&id=HN.607999839928060370&w=300&h=300&c=0&pid=1.9&rs=0&p=0)
+
 
 
 firebase syronized data between client and server automagicly

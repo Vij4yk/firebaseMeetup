@@ -14,6 +14,12 @@ Firebase is a slick backend cloud solution hosted by Google.
 
 1- talk up firebase devs  ================================================================
 
+# The One Man Gang
+
+![alt text](http://tse1.mm.bing.net/th?id=OIP.M380b037d5d2d8d8ebb9f501d415aaa5co1&pid=15.1 "OneManGang")
+
+
+
 firebase syronized data between client and server automagicly
 
 developing a sucessful modern web app is not easy

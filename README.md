@@ -74,7 +74,7 @@ Work as your own compact team: Yo do not need backend engineers
 *  AdMob
 
 
-This is an [Firebase Samples](https://firebase.google.com/docs/samples/)
+This is a [Firebase Samples](https://firebase.google.com/docs/samples/)
 
 
 =-=-=-=-=-=-=-=-=-=-=-=-=-=-==-=-=-=-=-=-=-=-=-=-=-=-=-=-=
@@ -82,8 +82,12 @@ This is an [Firebase Samples](https://firebase.google.com/docs/samples/)
 # Firebase Data Design
 ## JSON Tree
 
-![alt text](http://i.stack.imgur.com/ooZyS.png)
-
+    <blockquote>
+        <p>Key / Value Pairs</p>
+        <p>Keys are maps to Values </p>
+        <p>Values belong to Keys</p>
+        <p>Keys that do not have Values are removed from Key Chain (deleted)</p>
+    </blockquote>
 
 ## Firebase Data Types 
 Firebase offers four data types
@@ -92,30 +96,25 @@ Firebase offers four data types
 *  long [8765443]
 *  string [this is a string]
 
+Surprise! That is all we ever needed
 
-key/value pair
-key are maps to values - the values below the keys
-keys that do not have values (delete) are removed from key chain
-
-
-firebase database is a json tree
-the tree always ends with a real value leaf
-data snapshots includes a key and everything below it
-when you get many keys it becomes a list
+![alt text](http://i.stack.imgur.com/ooZyS.png)
 
 
+    <blockquote>
+	<p>Firebase database is a JSON Tree</p>
+	<p>Trees natural end points are leafs (Values)</p>
+	<p>Data snapshots start with a (Key) and contain everything below it</p>
+	<p>When you get many Keys it becomes a list</p>
+    </blockquote>
 
 
-Firebase Data Design
-https://www.youtube.com/watch?v=rtuou_a-DHI
+[Firebase Data Design](https://www.youtube.com/watch?v=rtuou_a-DHI)
+[Understanding Firebase Database concepts](https://www.youtube.com/watch?v=xuebjw_gP4M)
 
-Understanding Firebase Database concepts 
-https://www.youtube.com/watch?v=xuebjw_gP4M
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-==-=-=-=-=-=-=-=-=-=-=-=-=-=-=
 
-
-
-
-4-firebase examples  ================================================================
+# Firebase Demos
 
 Real Time Scheduling with AngularJS and Firebase
 http://codepen.io/sevilayha/pen/vEEmMX

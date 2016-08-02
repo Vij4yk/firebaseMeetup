@@ -190,7 +190,7 @@ https://goo.gl/n2XqG1
 
 # Firebase Code Sample
 
-`
+```
 <!doctype html>
 
 <head>
@@ -244,4 +244,4 @@ https://goo.gl/n2XqG1
 </script>
 
 </html>
-`
+```

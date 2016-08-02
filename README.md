@@ -16,9 +16,8 @@ Firebase is a slick backend cloud solution hosted by Google.
 
 # The One Man Gang
 
-![alt text](http://tse1.mm.bing.net/th?id=OIP.M380b037d5d2d8d8ebb9f501d415aaa5co1&pid=15.1)
+![alt text](https://s-media-cache-ak0.pinimg.com/564x/d1/eb/b0/d1ebb0b1daa52ed832faeed9ff0c939e.jpg)
 
-![](http://ts1.mm.bing.net/th?&id=HN.607999839928060370&w=300&h=300&c=0&pid=1.9&rs=0&p=0)
 
 
 

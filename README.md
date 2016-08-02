@@ -18,7 +18,7 @@ Firebase is a slick backend cloud solution hosted by Google.
 
 ![alt text](https://s-media-cache-ak0.pinimg.com/564x/d1/eb/b0/d1ebb0b1daa52ed832faeed9ff0c939e.jpg)
 
-A one man Firebase Dev:
+-= ERR ... A One Man Firebase Gang 
 
 ## You are the One Man Gang
 
@@ -29,7 +29,6 @@ A one man Firebase Dev:
 *  you want to know what users are clicking
 *  you have to make money
 
-
 ## Working as the One Man Gang
 
 *  real time database and file storage 
@@ -39,107 +38,66 @@ A one man Firebase Dev:
 *  analytics built for firebase
 *  ad mob
 
+Work as your own compact team: Yo do not need backend engineers
 
 =-=-=-=-=-=-=-=-=-=-=-=-=-=-==-=-=-=-=-=-=-=-=-=-=-=-=-=-=
-
-
-================================================================
+# Firebase Ecosystem
+##  Move over azure and aws
 
 ![alt text](http://tech.co/wp-content/uploads/2013/02/Firebase.png)
 
-# Developing a sucessful modern web app is not easy
-## Using Firebase ecosystem help ease the pain, big business struggles with 
-syronized data between client and server automagicly
+## Developing a sucessful modern web app is not easy
+### Using Firebase ecosystem help ease the pain, big business struggles with 
+### syronized data between client and server automagicly
+
+### Develop
+
+*  Realtime Database
+*  Authentication
+*  Clould Messaging
+*  Storage
+*  Hosting
+*  Remote Config
+*  Test Lab
+*  Crash Reporing
+
+### GROW
+
+*  Notifications
+*  App Indexing
+*  Dynamic Links
+*  Invites
+*  AdWords
+
+### EARN
+
+*  AdMob
+
+
+This is an [Firebase Samples](https://firebase.google.com/docs/samples/)
 
 
 =-=-=-=-=-=-=-=-=-=-=-=-=-=-==-=-=-=-=-=-=-=-=-=-=-=-=-=-=
-Google Breakdown
 
-Develop
+# Firebase Data Design
+## JSON Tree
 
-Realtime Database
-Authentication
-Clould Messaging
-Storage
-Hosting
-Remote Config
-Test Lab
-Crash Reporing
+![alt text](http://i.stack.imgur.com/ooZyS.png)
 
 
+## Firebase Data Types 
+Firebase offers four data types
+*  bool  [true/false]
+*  double [23.3456]
+*  long [8765443]
+*  string [this is a string]
 
-GROW
-
-Notifications
-App Indexing
-Dynamic Links
-Invites
-AdWords
-
-
-
-EARN
-
-AdMob
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-firebase + android => FirebaseUI
-Events in Firebase are how you control the realtime synchronization of data in your app. This Firecasts explores each type of event and how it can be used when making an app. Also, for those interested in Android apps, we'll look at library called FirebaseUI that simplifies app development.
-Want your RecyclerView to update in realtime? Use FirebaseUI! FirebaseUI is the easiest way to bind realtime data to ListViews and RecyclerViews. This Firecasts covers everything you need to know to be a pro at displaying lists of data in realtime.
-
-firebase + angular => AngularFire
-Want realtime data in your Angular app? Getting started with Angular and Firebase is super easy. Firebase has an official AngularJS library named AngularFire that makes binding data to your Angular apps a breeze. This video teaches you everything you need to know to get up and running fast.
-Async data flow got you down? Get it under control with the $loaded() promise and the router.
-
-firebase + ios
-Getting started with Firebase and iOS is as easy as creating a Podfile. 
-
-c++
-web
-
-https://firebase.google.com/docs/samples/
-
-
-
-
-
-compact team: yo do not need backend engineers
-fast iteration
-scalable
-
-
-realtime database
-authentication
-hosting
-
-
-
-
-
-3- data design  ================================================================
-firebase data types (4)
-json tree
 
 key/value pair
 key are maps to values - the values below the keys
 keys that do not have values (delete) are removed from key chain
 
-bool  [true/false]
-double [23.3456]
-long [8765443]
-string [this is a string]
+
 firebase database is a json tree
 the tree always ends with a real value leaf
 data snapshots includes a key and everything below it

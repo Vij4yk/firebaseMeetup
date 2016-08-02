@@ -12,7 +12,7 @@ Firebase is a slick backend cloud solution hosted by Google.
 
 
 
-================================================================
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-==-=-=-=-=-=-=-=-=-=-=-=-=-=-=
 
 # The One Man Gang
 
@@ -40,17 +40,19 @@ A one man Firebase Dev:
 *  ad mob
 
 
-
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-==-=-=-=-=-=-=-=-=-=-=-=-=-=-=
 
 
 ================================================================
+
+![alt text](http://tech.co/wp-content/uploads/2013/02/Firebase.png)
 
 # Developing a sucessful modern web app is not easy
 ## Using Firebase ecosystem help ease the pain, big business struggles with 
 syronized data between client and server automagicly
 
 
-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-==-=-=-=-=-=-=-=-=-=-=-=-=-=-=
 Google Breakdown
 
 Develop
